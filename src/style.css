@@ -155,8 +155,8 @@ button:focus {
 }
 
 .logo {
-  height: 2.4em !important;
-  width: 5.5em !important;
+  height: 4.5em !important;
+  width: 4.5em !important;
 }
 
 .navbar-nav .nav-link {
@@ -740,4 +740,20 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+
+.project_tech{
+  font-weight: 600;
+  color: white;
+  margin-top: 40px;
+}
+
+.icon_button{
+  width: '60px';
+  justify-content: center;
+}
+
+.icon{
+  size: '50px';
 }

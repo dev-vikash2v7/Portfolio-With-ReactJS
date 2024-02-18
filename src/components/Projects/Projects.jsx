@@ -15,9 +15,14 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-{constant.projects.map(project =>(
+<div>
+
+
+<h1 className="project_tech">ReactJS Projects</h1>
+
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+{constant.projects["ReactJS"].map(project =>(
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -31,8 +36,39 @@ function Projects() {
           </Col>
 
 ))}
+</Row>
+
+</div>
+
+<div>
+
+
+<h1 className="project_tech">React Native Projects</h1>
+
+<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+{constant.projects["React Native"].map(project =>(
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={project.imgPath}
+              title={project.title}
+              description={project.description}
+              ghLink={project.ghLink}
+              downloadLink={project.downloadLink}
+              youtubeLink={project.youtubeLink}
+              skills={project.skills}
+
+            />
+          </Col>
+
+))}
+
+
 
         </Row>
+        </div>
+
       </Container>
     </Container>
   );
