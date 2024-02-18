@@ -1,8 +1,8 @@
-import shoppinghub from "../../assets/Projects/shoppinghub.jpg"
-import agrointel from "../../assets/Projects/agrointel.png"
-import trends from "../../assets/Projects/trends-1.png"
-import amazon from "../../assets/Projects/amazon.png"
-import eazyhome from "../../assets/Projects/eazyhome.png"
+import shoppinghub from "./Project_images/shoppinghub.jpg"
+import agrointel from "./Project_images/agrointel.png"
+import trends from "./Project_images/trends-1.png"
+import amazon from "./Project_images/amazon.png"
+import eazyhome from "./Project_images/eazyhome.png"
 
 export default {
     "projects":{
