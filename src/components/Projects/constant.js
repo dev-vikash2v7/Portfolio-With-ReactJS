@@ -3,11 +3,21 @@ import agrointel from "./Project_images/agrointel.png"
 import trends from "./Project_images/trends-1.png"
 import amazon from "./Project_images/amazon.png"
 import eazyhome from "./Project_images/eazyhome.png"
+import reno from "./Project_images/reno.jpeg"
 
 export default {
     "projects":{
 
         "React Native" :    [
+        {
+           "title":"Reno App - Restaurant Partner",
+            "imgPath": reno,
+            "description": "With Renoapp, restaurant owners gain access to a comprehensive suite of tools to streamline their operations and boost revenue like never before. From efficient capacity planning to dynamically priced offers, real-time booking and order management",
+            "skills": ["React Native" , "Expo" , "RazorPay" , "PostgreSQL" , "Prisma" , "Firebase" , "NodeJS"  , "Express"],
+            "ghLink": "https://github.com/dev-vikash2v7/Reno.git",
+            "downloadLink" : "https://drive.google.com/file/d/1l5tWOJ5LfTMbKi9q2ZusYJwYjXHJjpH_/view?usp=drive_link",
+            // "youtubeLink" : "https://youtu.be/JONvL4WXPA8"
+        },
         {
             "title":"Shopping Hub",
             "imgPath": shoppinghub ,
