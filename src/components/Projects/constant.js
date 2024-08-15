@@ -3,7 +3,7 @@ import agrointel from "./Project_images/agrointel.png"
 import trends from "./Project_images/trends-1.png"
 import amazon from "./Project_images/amazon.png"
 import eazyhome from "./Project_images/eazyhome.png"
-import reno from "./Project_images/reno.jpeg"
+import reno from "./Project_images/reno2.jpeg"
 
 export default {
     "projects":{
