@@ -4,6 +4,7 @@ import trends from "./Project_images/trends-1.png"
 import amazon from "./Project_images/amazon.png"
 import eazyhome from "./Project_images/eazyhome.png"
 import reno from "./Project_images/reno2.jpeg"
+import imaginify from "./Project_images/imaginify.png"
 
 export default {
     "projects":{
@@ -66,6 +67,17 @@ export default {
             "ghLink": "https://github.com/dev-vikash2v7/amazon-clone",
             "demoLink" : "https://vk-amazon-clone.netlify.app/"
         },
+    ],
+    "NextJS" :[
+        {
+            "title":"Imaginify - An AI SaaS Platform",
+            "imgPath": imaginify,
+            "description": "I image SaaS platform that excels in image processing capabilities, integrates a secure payment infrastructure, offers advanced image search functionalities, and supports multiple AI features, including image restoration, recoloring, object removal, generative filling, and background removal.",
+            "skills": ["Next.js","TypeScript","MongoDB","Clerk","Cloudinary","Stripe","TailwindCSS"],
+            "ghLink": "https://github.com/dev-vikash2v7/imaginify-NextJS_SaaS",
+            "demoLink" : "https://imaginify-saas129.vercel.app/"
+        },
+      
     ]
 }
 
