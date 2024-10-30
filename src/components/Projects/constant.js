@@ -72,7 +72,7 @@ export default {
         {
             "title":"Imaginify - An AI SaaS Platform",
             "imgPath": imaginify,
-            "description": "I image SaaS platform that excels in image processing capabilities, integrates a secure payment infrastructure, offers advanced image search functionalities, and supports multiple AI features, including image restoration, recoloring, object removal, generative filling, and background removal.",
+            "description": "Built with Next.JS librarry is an AI image SaaS platform that excels in image processing capabilities, integrates a secure payment infrastructure and offers advanced image search functionalities.",
             "skills": ["Next.js","TypeScript","MongoDB","Clerk","Cloudinary","Stripe","TailwindCSS"],
             "ghLink": "https://github.com/dev-vikash2v7/imaginify-NextJS_SaaS",
             "demoLink" : "https://imaginify-saas129.vercel.app/"

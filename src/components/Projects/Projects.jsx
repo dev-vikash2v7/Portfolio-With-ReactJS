@@ -38,6 +38,28 @@ function Projects() {
 ))}
 </Row>
 
+
+<h1 className="project_tech">NextJS Projects</h1>
+
+        <Row style={{  paddingBottom: "10px" }}>
+{constant.projects["NextJS"].map(project =>(
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={project.imgPath}
+              title={project.title}
+              description={project.description}
+              ghLink={project.ghLink}
+              demoLink={project.demoLink}
+              skills={project.skills}
+            />
+          </Col>
+
+))}
+</Row>
+
+
+
 </div>
 
 <div>
