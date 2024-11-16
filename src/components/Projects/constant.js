@@ -4,7 +4,7 @@ import trends from "./Project_images/trends-1.png"
 import amazon from "./Project_images/amazon.png"
 import eazyhome from "./Project_images/eazyhome.png"
 import reno from "./Project_images/reno2.jpeg"
-// import imaginify from "./Project_images/imaginify.png"
+import imaginify from "./Project_images/1.png"
 
 export default {
     "projects":{
@@ -71,7 +71,7 @@ export default {
     "NextJS" :[
         {
             "title":"Imaginify - An AI SaaS Platform",
-            "imgPath": eazyhome,
+            "imgPath": imaginify,
             "description": "Built with Next.JS librarry is an AI image SaaS platform that excels in image processing capabilities, integrates a secure payment infrastructure and offers advanced image search functionalities.",
             "skills": ["Next.js","TypeScript","MongoDB","Clerk","Cloudinary","Stripe","TailwindCSS"],
             "ghLink": "https://github.com/dev-vikash2v7/imaginify-NextJS_SaaS",
