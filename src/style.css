@@ -205,6 +205,17 @@ button:focus {
   width: 100%;
 }
 
+/* Active navigation link styling */
+.navbar-nav .nav-item a.active-nav-link {
+  color: #c95bf5 !important;
+  font-weight: 600 !important;
+}
+
+.navbar-nav .nav-item a.active-nav-link::after {
+  width: 100% !important;
+  background: #c95bf5 !important;
+}
+
 /* --------- */
 /* Home section */
 /* --------- */
@@ -257,7 +268,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url("./home-bg.jpg");
+  background-image: var(--image-gradient), url("./components/Home/home-bg.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;

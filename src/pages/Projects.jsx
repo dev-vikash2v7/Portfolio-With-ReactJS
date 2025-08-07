@@ -1,14 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import CategoryNav from "./CategoryNav";
-import Particle from "../Particle";
-import constant from "./constant.json";
+import ProjectCard from "../components/Projects/ProjectCards";
+import CategoryNav from "../components/Projects/CategoryNav";
+import constant from "../components/Projects/projects.json";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>

@@ -14,7 +14,6 @@ import {
   
 } from "react-icons/fa";
 import { SiMongodb, SiFigma , SiFirebase } from "react-icons/si";
-// import Particle from "../Particle";
 
 const Experience = () => {
   const [activeCard, setActiveCard] = useState(0);
@@ -99,7 +98,6 @@ const Experience = () => {
 
   return (
     <Container fluid className="experience-section">
-      {/* <Particle /> */}
       <Container>
         <h1 className="experience-heading">
           My <strong className="purple">Experience</strong>

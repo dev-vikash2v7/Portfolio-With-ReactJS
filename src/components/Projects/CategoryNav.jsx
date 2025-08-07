@@ -19,7 +19,7 @@ const CategoryNav = ({ categories, onCategoryClick }) => {
         return <FaCode className="category-icon" />;
       case "reactjs projects":
         return <FaReact className="category-icon" />;
-      case "nodejs backend projects":
+      case "nodejs projects":
         return <FaNodeJs className="category-icon" />;
       case "python projects":
         return <FaPython className="category-icon" />;

@@ -1,15 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Tilt from "react-parallax-tilt";
 
-import homeLogo from "./home-main.svg";
-import Type from "./Type";
-import AboutCard from "../About/AboutCard";
-import Github from "./Github";
-import Techstack from "./Techstack";
-import Toolstack from "./Toolstack";
+import homeLogo from "../components/Home/home-main.svg";
+import Type from "../components/Home/Type";
+import AboutCard from "../components/About/AboutCard";
+import Github from "../components/Home/Github";
+import Techstack from "../components/Home/Techstack";
+import Toolstack from "../components/Home/Toolstack";
 
-function Home2() {
+function Home() {
   return (
     <Container fluid className="home-about-section" id="about">
          <section>
@@ -17,6 +16,7 @@ function Home2() {
         
         <Container className="home-content">
           <Row>
+
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
@@ -32,7 +32,7 @@ function Home2() {
 
             
 
-              <Row style={{ justifyContent: "center", padding: "10px" }}>
+              <Row style={{ justifyContent: "center" , paddingLeft:"20px"}}>
    <AboutCard/>
 </Row>  
 
@@ -72,7 +72,6 @@ function Home2() {
       </Container>
 
 
-      {/* GitHub Activity Section */}
         
       <Container className="github-stats-section">
         <Github />
@@ -84,4 +83,4 @@ function Home2() {
     </Container>
   );
 }
-export default Home2;
+export default Home;
