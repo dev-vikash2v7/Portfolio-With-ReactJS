@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
+import CategoryNav from "./CategoryNav";
 import Particle from "../Particle";
-import constant from './constant'
+import constant from "./constant.json";
 
 function Projects() {
   return (
@@ -16,81 +17,31 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
 
-<div>
+        <CategoryNav categories={constant.allprojects} />
 
-
-<h1 className="project_tech">ReactJS Projects</h1>
-
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-{constant.projects["ReactJS"].map(project =>(
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={project.imgPath}
-              title={project.title}
-              description={project.description}
-              ghLink={project.ghLink}
-              demoLink={project.demoLink}
-              skills={project.skills}
-            />
-          </Col>
-
-))}
-</Row>
-
-
-<h1 className="project_tech">NextJS Projects</h1>
-
-        <Row style={{  paddingBottom: "10px" }}>
-{constant.projects["NextJS"].map(project =>(
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={project.imgPath}
-              title={project.title}
-              description={project.description}
-              ghLink={project.ghLink}
-              demoLink={project.demoLink}
-              skills={project.skills}
-            />
-          </Col>
-
-))}
-</Row>
-
-
-
-</div>
-
-<div>
-
-
-<h1 className="project_tech">React Native Projects</h1>
-
-<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-{constant.projects["React Native"].map(project =>(
-
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={project.imgPath}
-              title={project.title}
-              description={project.description}
-              ghLink={project.ghLink}
-              downloadLink={project.downloadLink}
-              youtubeLink={project.youtubeLink}
-              skills={project.skills}
-
-            />
-          </Col>
-
-))}
-
-
-
-        </Row>
+        <div className="projects-container">
+          {constant.allprojects.map((topic, index) => (
+            <div key={index} className="category-section">
+              <h1 className="project_tech" id={topic.link}>{topic.category}</h1>
+              <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+                {topic.projects.map(project => (
+                  <Col md={4} className="project-card" key={project.title}>
+                    <ProjectCard
+                      imgPath={project.imgPath}
+                      title={project.title}
+                      description={project.description}
+                      ghLink={project.ghLink}
+                      demoLink={project.demoLink}
+                      skills={project.skills}
+                      downloadLink={project.downloadLink}
+                      youtubeLink={project.youtubeLink}
+                    />
+                  </Col>
+                ))}
+              </Row>
+            </div>
+          ))}
         </div>
-
       </Container>
     </Container>
   );

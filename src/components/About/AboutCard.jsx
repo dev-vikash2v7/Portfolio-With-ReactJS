@@ -9,38 +9,25 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
 
-          Greetings! I'm <span className="purple">Vikash Verma </span>
-          hailing from the lake city of <span className="purple"> Bhopal, India.</span>
-            <br />
-            <br />
-
-            I am currently in my third year, passionately pursuing a Bachelor's Degree in <span className="purple"> Computer Science & Engineering</span> at the esteemed <span className="purple">Oriental Institute of Science and Technology</span> (OIST), Bhopal, affiliated with RGPV University.
+            I am from <span className="purple">Bhopal, Madhya Pradesh</span>.  I specialize in full-stack development, with hands-on experience during multiple internships .
 
             <br />
             <br />
 
-            I am actively seeking a challenging role as a <span className="purple">Full Stack Web Developer</span>, proficient in MERN stack, or as an <span className="purple">Android Developer</span> adept in React Native. 
-            <br />
-            
-            My goal is to leverage and enhance my skills in crafting efficient and user-friendly applications.
+            I have recently completed my Bachelor Of Technology (B.Tech) Degree in <span className="purple">Computer Science & Engineering</span> from the <span className="purple">Oriental Institute of Science and Technology (OIST)</span>, Bhopal, affiliated with RGPV University.
 
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+
+        
+            I've contributed to real-world projects during my paid internships, where I worked on <span className="purple">Full Stack Web Application , React Native  mobile apps, REST APIs, Firebase  & Whatsapp integration, and DevOps & Version Control like AWS  , Git & Github, etc.</span>
+
+            <br />
+            <br />
+
+       
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
-
-          
+        
         </blockquote>
       </Card.Body>
     </Card>

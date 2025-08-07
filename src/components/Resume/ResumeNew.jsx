@@ -35,9 +35,8 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
+          <Document file={pdf} className="d-flex justify-content-center" >
             <Page pageNumber={1}  />
-            <Page pageNumber={2} />
           </Document>
         </Row>
 

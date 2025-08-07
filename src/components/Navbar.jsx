@@ -3,7 +3,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 
-import logo from "./header_logo.png";
 
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
@@ -41,7 +40,7 @@ function NavBar() {
       <Container>
       
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="" alt="brand"  />
+        <h2 >Vikash  Verma</h2>
         </Navbar.Brand>
 
         <Navbar.Toggle
@@ -65,10 +64,10 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
+                to="/experience"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Experience
               </Nav.Link>
             </Nav.Item>
 
