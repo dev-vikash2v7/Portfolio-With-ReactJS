@@ -21,7 +21,6 @@ function ProjectCards(props) {
           {props.description}
         </Card.Text>
 
-        {/* Skills Tags */}
         {props.skills && (
           <div className="skills-container">
             {props.skills.map((skill, index) => (

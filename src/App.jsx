@@ -22,7 +22,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
-    }, 1200);
+    }, 600);
 
     return () => clearTimeout(timer);
   }, []);
@@ -35,7 +35,9 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
+          
           <Route path="/projects" element={<Projects />} />
+
           <Route path="/experience" element={<Experience />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />

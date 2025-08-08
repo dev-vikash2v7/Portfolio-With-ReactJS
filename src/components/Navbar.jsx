@@ -88,9 +88,9 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/projects"
                 onClick={() => updateExpanded(false)}
-                className={isActive("/project") ? "active-nav-link" : ""}
+                className={isActive("/projects") ? "active-nav-link" : ""}
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
