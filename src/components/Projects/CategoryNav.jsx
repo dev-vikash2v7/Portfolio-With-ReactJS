@@ -9,6 +9,7 @@ import {
   FaDatabase,
 } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
+import { AiFillRobot } from "react-icons/ai";
 
 const CategoryNav = ({ categories, onCategoryClick }) => {
   const getCategoryIcon = (category) => {
@@ -21,14 +22,16 @@ const CategoryNav = ({ categories, onCategoryClick }) => {
         return <FaReact className="category-icon" />;
       case "nodejs projects":
         return <FaNodeJs className="category-icon" />;
-      case "python projects":
-        return <FaPython className="category-icon" />;
       case "django projects":
         return <FaDatabase className="category-icon" />;
       case "nextjs project":
         return <RiNextjsFill className="category-icon" />;
       case "python project":
         return <RiNextjsFill className="category-icon" />;
+      case "aiml project":
+        return <AiFillRobot className="category-icon" />;
+      case "Python Full Stack Projects":
+        return <FaPython className="category-icon" />;
       default:
         return <FaCode className="category-icon" />;
     }
