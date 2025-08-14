@@ -13,25 +13,24 @@ import { FaRobot } from "react-icons/fa";
 
 
 const CategoryNav = ({ categories }) => {
-  const getCategoryIcon = (category) => {
-    switch (category.toLowerCase()) {
-      case "react native projects":
+  const getCategoryIcon = (link) => {
+    switch (link.toLowerCase()) {
+      case "reactnative":
         return <FaMobile className="category-icon" />;
-      case "mern stack projects":
+      case "mern":
         return <FaCode className="category-icon" />;
-      case "reactjs projects":
+      case "reactjs":
         return <FaReact className="category-icon" />;
-      case "nodejs projects":
+      case "nodejs":
         return <FaNodeJs className="category-icon" />;
-      case "django projects":
+      case "django":
         return <FaDatabase className="category-icon" />;
-      case "nextjs project":
+      case "nextjs":
         return <RiNextjsFill className="category-icon" />;
-      case "python project":
-        return <RiNextjsFill className="category-icon" />;
-      case "ai projects":
+      
+      case "ai":
         return <FaRobot className="category-icon" />;
-      case "Python Full Stack Projects":
+      case "pythonfullstack":
         return <FaPython className="category-icon" />;
       default:
         return <FaCode className="category-icon" />;
@@ -60,7 +59,7 @@ const CategoryNav = ({ categories }) => {
                 onClick={() => scrollToCategory(category.link)}
               >
                 <div className="category-icon-wrapper">
-                  {getCategoryIcon(category.category)}
+                  {getCategoryIcon(category.link)}
                 </div>
                 <span className="category-name">{category.category}</span>
               </div>
