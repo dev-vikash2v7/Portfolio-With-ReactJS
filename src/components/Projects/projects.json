@@ -1,6 +1,69 @@
 {
     "allprojects":[
- {
+        
+        {
+            "category" : "Python Full Stack Projects" ,
+        
+            "projects" : [
+                {
+                    "title":"Warehouse Management System Development",
+                    "imgPath": "./Project_images/whm.png" ,
+                    "description": "Python application with a graphical user interface (GUI) and ReactJS website that allows users to easily map Stock Keeping Units (SKUs) to Master SKUs (MSKUs).",
+                    "skills": ["Python" , "Flask" , "React.js" , "MongoDB" , "OpenAI GPT-4" ,  "CustomTkinter" ],
+                    "ghLink": "https://github.com/dev-vikash2v7/Warehouse-Management-System.git",
+                    "demoLink" : "https://test-six-taupe-68.vercel.app/",
+                    "youtubeLink" : "https://youtu.be/tQfbyHhDSSU"
+                },
+                {
+                    "title":"WhatsApp-Driven Google Drive Assistant",
+                    "imgPath": "./Project_images/whatsapp.png" ,
+                    "description": "A comprehensive n8n workflow that enables WhatsApp users to interact with Google Drive through simple text commands.",
+                    "skills": ["Python" ,"Docker" , "n8n  (Workflow)" , "Twilio (Whatsapp)" ,  "Google Cloud Platform (Google Drive)" , "Gemini" ],
+                    "ghLink": "https://github.com/dev-vikash2v7/WhatsApp-Based-Google-Drive-Assistant.git",
+                    "youtubeLink" : "https://youtu.be/yWufoYkQ4Yg"
+                },
+                {
+                    "title":"Court Data Fetcher - Delhi High Court",
+                    "imgPath": "./Project_images/court.png" ,
+                    "description": "A comprehensive n8n workflow that enables WhatsApp users to interact with Google Drive through simple text commands.",
+                    "skills": ["Python" ,"Flask" , "Selenium WebDriver" , "SQLite" ,  "HTML5", "CSS3", "JavaScript" ],
+                    "ghLink": "https://github.com/dev-vikash2v7/Court-Data-Fetcher-Mini-Dashboard.git",
+                    "youtubeLink" : "https://youtu.be/OwzXWrz7Q3k",
+                    "demoLink" : "https://court-data-fetcher-mini-dashboard-qkzt.onrender.com/"
+                }
+            ],
+            "link" : "pythonfullstack"
+        },
+
+        { 
+          "category" : "MERN Stack Projects" ,
+          "projects" : [
+              {
+                  "title":"EazyHome - Real Eastate Website",
+                  "imgPath": "./Project_images/eazyhome.png",
+                  "description": "EazyHome is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application designed to simplify the process of browsing and booking properties.The website allows users to view available properties, book them securely, and receive project details via email",
+                  "skills": ["NodeJs" , "MongoDB" , "Express.JS" , "ReactJs"  , "Stripe"],
+                  "ghLink": "https://github.com/dev-vikash2v7/Real-Estate-Frontented-With-React.git",
+                  "demoLink" : "https://eazyhome.netlify.app/"
+        
+              },
+           
+        {
+                  "title":"Trends - Ecommerce platform",
+                  "imgPath": "./Project_images/trends-1.png",
+                  "description": "Trends is a modern and user-friendly e-commerce website built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The website allows users to explore trending products and make purchases securely using the Stripe payment system.",
+                  "skills": ["NodeJs" , "MongoDB" , "Express.JS" , "ReactJs"  , "Stripe"],
+                  "ghLink": "https://github.com/dev-vikash2v7/TRENDS--ReactJS-Ecommerce-Website",
+                  "demoLink" : "https://trends-ecommerce.vercel.app"
+        
+              }
+          ],
+          "link" : "mern"
+        },
+
+
+        
+        {
      "category" : "React Native Projects" ,
         "projects" :    [
             {
@@ -41,31 +104,6 @@
     "link" : "reactnative"
 } ,
 
-  { 
-    "category" : "MERN Stack Projects" ,
-    "projects" : [
-        {
-            "title":"EazyHome - Real Eastate Website",
-            "imgPath": "./Project_images/eazyhome.png",
-            "description": "EazyHome is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application designed to simplify the process of browsing and booking properties.The website allows users to view available properties, book them securely, and receive project details via email",
-            "skills": ["NodeJs" , "MongoDB" , "Express.JS" , "ReactJs"  , "Stripe"],
-            "ghLink": "https://github.com/dev-vikash2v7/Real-Estate-Frontented-With-React.git",
-            "demoLink" : "https://eazyhome.netlify.app/"
-
-        },
-     
- {
-            "title":"Trends - Ecommerce platform",
-            "imgPath": "./Project_images/trends-1.png",
-            "description": "Trends is a modern and user-friendly e-commerce website built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The website allows users to explore trending products and make purchases securely using the Stripe payment system.",
-            "skills": ["NodeJs" , "MongoDB" , "Express.JS" , "ReactJs"  , "Stripe"],
-            "ghLink": "https://github.com/dev-vikash2v7/TRENDS--ReactJS-Ecommerce-Website",
-            "demoLink" : "https://trends-ecommerce.vercel.app"
-
-        }
-    ],
-    "link" : "mern"
-},
 {
 
     "category" : "ReactJS Projects" ,
@@ -126,16 +164,9 @@
 } ,
 
 {
-    "category" : "Python Projects" ,
+    "category" : "AI Projects" ,
     "projects" : [
-        {
-            "title":"Warehouse Management System Development",
-            "imgPath": "./Project_images/whm.png" ,
-            "description": "Python application with a graphical user interface (GUI) and ReactJS website that allows users to easily map Stock Keeping Units (SKUs) to Master SKUs (MSKUs).",
-            "skills": ["Python" , "Flask" , "React.js" , "MongoDB" , "OpenAI GPT-4" ,  "CustomTkinter" ],
-            "ghLink": "https://github.com/dev-vikash2v7/Warehouse-Management-System.git",
-            "demoLink" : "https://test-six-taupe-68.vercel.app/"
-        },
+        
    {
             "title":"VisionTrackAI",
             "imgPath": "./Project_images/vision.png" ,
@@ -152,10 +183,8 @@
             "ghLink": "https://github.com/dev-vikash2v7/CVInsight",
             "demoLink" : "https://vikash-cvinsight.streamlit.app/"
         }
-
-
     ],
-    "link" : "python"
+    "link" : "aiml"
 } ,
 
 {

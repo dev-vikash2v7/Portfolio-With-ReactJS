@@ -27,6 +27,8 @@ const CategoryNav = ({ categories, onCategoryClick }) => {
         return <FaDatabase className="category-icon" />;
       case "nextjs project":
         return <RiNextjsFill className="category-icon" />;
+      case "python project":
+        return <RiNextjsFill className="category-icon" />;
       default:
         return <FaCode className="category-icon" />;
     }
